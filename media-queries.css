@@ -25,3 +25,21 @@ li {
     background-position: center;
     /*clear: right;*/
 }
+
+.main {
+    float: left;
+    width: 45%;
+    clear: both;
+}
+
+.sub-section {
+    float: right;
+    width: 45%;
+    margin: 0 15px 0 15px;
+}
+
+footer {
+    padding-top: 200px;
+    clear: both;
+
+}
