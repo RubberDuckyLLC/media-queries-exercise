@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 65%;
 }
 
 h1 {
@@ -7,21 +7,21 @@ h1 {
 
 }
 
-nav-links {
+.nav-links {
     float: right;
-    /*display: inline;*/
+    display: inline;
     list-style-type: none;
+    /*clear: left;*/
+    margin: 70px 20px 50px 0;
 
 }
 
 li {
     display: inline;
-    padding-left: 200px;
+    margin: 0 10px 0 10px;
 }
 
-header-img {
+.header-img {
     background-position: center;
-    clear: right;
-    margin: 100px 0 0 0;
-
+    /*clear: right;*/
 }
