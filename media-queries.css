@@ -1,9 +1,18 @@
 body {
     width: 65%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Header */
+
+.alert-info {
+    display:none;
 }
 
 h1 {
     float:left;
+    padding: 25px 0 0 0;
 
 }
 
@@ -13,6 +22,7 @@ h1 {
     list-style-type: none;
     /*clear: left;*/
     margin: 70px 20px 50px 0;
+    padding: 0 0 10px 0;
 
 }
 
@@ -24,7 +34,10 @@ li {
 .header-img {
     background-position: center;
     /*clear: right;*/
+
 }
+
+/* Main Section */
 
 .main {
     float: left;
@@ -35,8 +48,11 @@ li {
 .sub-section {
     float: right;
     width: 45%;
-    margin: 0 15px 0 15px;
+    margin: 0 10px 0 15px;
 }
+
+
+/* Footer */
 
 footer {
     padding-top: 200px;
