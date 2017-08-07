@@ -1,6 +1,37 @@
+@media screen and (max-width:400px) {
+    h1 {
+        width: 100%;
+        padding: 0px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .nav-links li {
+        border: 1px solid #000;
+        width: 80%;
+        display: block;
+        margin: 0 150px 10px 0;
+        padding: 5px 0 5px 0;
+        background-color: #B6B6B6;
+        overflow: hidden;
+        text-align: center;
+
+    }
+
+    ul.nav-links {
+        /*margin-top: 0;*/
+        /*margin-bottom: 0;*/
+        margin: 0 auto;
+    }
+}
+
+
+
+
 body {
     width: 65%;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 
 }
 
@@ -59,3 +90,21 @@ footer {
     clear: both;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
