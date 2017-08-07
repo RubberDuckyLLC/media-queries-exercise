@@ -3,18 +3,25 @@ body {
 }
 
 h1 {
-    /*float:left;*/
+    float:left;
 
 }
 
-.nav-links li {
+nav-links {
     float: right;
-    display: inline;
+    /*display: inline;*/
+    list-style-type: none;
 
+}
+
+li {
+    display: inline;
+    padding-left: 200px;
 }
 
 header-img {
     background-position: center;
     clear: right;
+    margin: 100px 0 0 0;
 
 }
