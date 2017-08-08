@@ -126,11 +126,15 @@ img {
     padding-right: 15px;
 }
 
+a:hover {
+    color: #808080;
+}
+
 
 /* Footer */
 
 footer {
-    padding-top: 200px;
+    padding-top: 50px;
     clear: both;
 
 }
@@ -219,6 +223,14 @@ Mobile Version.
     .main-link {
         text-decoration: none;
         color: #000;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
+    li:hover {
+        border: 3px solid black;
     }
 }
 
