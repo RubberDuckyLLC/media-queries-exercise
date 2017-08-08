@@ -139,6 +139,20 @@ footer {
 
 }
 
+#twitter-logo {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin: 7px;
+}
+
+#facebook-logo {
+    height: 65px;
+    width: 65px;
+    float: right;
+    margin: 0 0 15px 0;
+}
+
 
 
 /***************
