@@ -1,69 +1,8 @@
-/***************
+/******************
 
-Mobile Version.
+   Desktop Version.
 
-*****************/
-
-
-/*@media screen and (max-width:400px) {*/
-    /*body {*/
-        /*width: 95%;*/
-    /*}*/
-
-    /*h1 {*/
-        /*width: 100%;*/
-        /*padding: 0px;*/
-        /*margin-top: 70px;*/
-        /*text-align: center;*/
-    /*}*/
-
-    /*.nav-links li {*/
-        /*border: 1px solid #000;*/
-        /*width: 80%;*/
-        /*display: block;*/
-        /*margin: 0 150px 10px 0;*/
-        /*padding: 5px 0 5px 0;*/
-        /*background-color: #B6B6B6;*/
-        /*overflow: hidden;*/
-        /*text-align: center;*/
-
-    /*}*/
-
-    /*ul.nav-links {*/
-        /*margin-top: 0;*/
-        /*margin-bottom: 0;*/
-        /*margin: 0 auto;*/
-        /*width: 98%;*/
-        /*padding: 0 10px 0 20px;*/
-    /*}*/
-
-    /*img {*/
-        /*width: 100%;*/
-        /*height: 100px;*/
-    /*}*/
-
-    /*.header-img {*/
-        /*height: 100%;*/
-        /*margin: 0 0 10px 0;*/
-    /*}*/
-
-    /*.h2 {*/
-        /*width: 100%;*/
-        /*margin-right: 0;*/
-    /*}*/
-
-    /*.main {*/
-        /*width: 95%;*/
-        /*margin-left: 10px;*/
-    /*}*/
-
-/*}*/
-
-/**************
-
-Desktop Version.
-
-***************/
+******************/
 
 body {
     width: 95%;
@@ -71,7 +10,13 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
+
+
+/*****************
+
+     Header
+
+******************/
 
 .alert-info {
     display:none;
@@ -82,12 +27,18 @@ h1 {
     padding: 25px 0 0 0;
     font-weight: bold;
     font-size: 50px;
-
 }
 
 h2 {
     font-weight: bolder;
 }
+
+
+/*************************
+
+    Navigation Styles.
+
+**************************/
 
 .nav-links {
     float: right;
@@ -96,7 +47,6 @@ h2 {
     /*clear: left;*/
     margin: 70px 20px 50px 0;
     padding: 0 0 10px 0;
-
 }
 
 li {
@@ -107,11 +57,15 @@ li {
 img {
     width: 100%;
     background-position: center;
-    /*clear: right;*/
-
 }
 
-/* Main Section */
+
+
+/**************
+
+  Main Section.
+
+****************/
 
 .main {
     float: left;
@@ -131,13 +85,26 @@ a:hover {
 }
 
 
-/* Footer */
+
+/************
+
+   Footer.
+
+*************/
 
 footer {
     padding-top: 50px;
     clear: both;
 
 }
+
+
+
+/************************
+
+    Social Media Links.
+
+ ************************/
 
 #twitter-logo {
     height: 50px;
@@ -155,12 +122,11 @@ footer {
 
 
 
-/***************
+/**********************
 
-Mobile Version.
+    Mobile Version.
 
- **************/
-
+**********************/
 
 @media screen and (max-width:400px) {
     body {
@@ -183,15 +149,10 @@ Mobile Version.
         background-color: #B6B6B6;
         overflow: hidden;
         text-align: center;
-
     }
 
     ul.nav-links {
-        /*margin-top: 0;*/
-        /*margin-bottom: 0;*/
-        /*margin: 0 auto;*/
         width: 100%;
-        /*padding: 0 10px 0 20px;*/
     }
 
     .nav-links {
@@ -200,7 +161,6 @@ Mobile Version.
 
     img {
         width: 100%;
-        /*height: 100px;*/
     }
 
     .header-img {
