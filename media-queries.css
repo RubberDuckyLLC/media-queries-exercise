@@ -54,7 +54,7 @@ li {
     margin: 0 10px 0 10px;
 }
 
-img {
+.main-pic {
     width: 100%;
     background-position: center;
 }
@@ -136,7 +136,7 @@ footer {
     h1 {
         width: 100%;
         padding: 0px;
-        margin-top: 70px;
+        margin-top: 20px;
         text-align: center;
     }
 
@@ -153,14 +153,17 @@ footer {
 
     ul.nav-links {
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .nav-links {
         margin-top: 5px;
     }
 
-    img {
+    .main-pic {
         width: 100%;
+        border: 2px solid #000;
+        border-radius: 10px;
     }
 
     .header-img {
